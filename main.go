@@ -10,4 +10,6 @@ import (
 func main() {
 	fmt.Println(exercise1.Exercise())
 	repeater.Repeater()
+	repeater.RepeaterInFrontOfString()
+	repeater.RepeaterWithUppercase()
 }
