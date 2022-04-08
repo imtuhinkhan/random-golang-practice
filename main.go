@@ -1,15 +1,13 @@
 package main
 
 import (
-	"fmt"
-
-	exercise1 "tuhinkhan.com/go/exercise-1"
-	"tuhinkhan.com/go/repeater"
+	"tuhinkhan.com/go/user"
 )
 
 func main() {
-	fmt.Println(exercise1.Exercise())
-	repeater.Repeater()
-	repeater.RepeaterInFrontOfString()
-	repeater.RepeaterWithUppercase()
+	// fmt.Println(exercise1.Exercise())
+	// repeater.Repeater()
+	// repeater.RepeaterInFrontOfString()
+	// repeater.RepeaterWithUppercase()
+	user.User()
 }
